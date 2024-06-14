@@ -510,6 +510,7 @@ max-width: 264px;
 .modal {
   position: absolute;
   width: 408px;
+  transform: translate(-50%, -50%);
   min-height: 584px;
   background-color: #FCFCFC;
   border-radius: 4px;
@@ -633,6 +634,11 @@ max-width: 264px;
 
 .div-modal-input {
   position: relative;
+  top: 50%;
+}
+
+.div-modal-input:focus-within {
+  fill: #4d5ae5;
 }
 
 .input-modal-label {
@@ -712,6 +718,7 @@ max-width: 264px;
 .button-modal-send {
   display: block;
   min-width: 169px;
+  height: 56px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -720,4 +727,18 @@ max-width: 264px;
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  margin:auto;
 }
+
+.input-checkbox:checked + .label-checkbox .span-label {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
+
+.link-label {
+  color: #4d5ae5;
+}
+
+
