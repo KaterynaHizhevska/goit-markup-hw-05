@@ -479,6 +479,10 @@ max-width: 264px;
   gap: 16px;
 }
 
+.container-social-media {
+  margin-right: 80px;
+}
+
 .hidden {
   position: absolute;
   width: 1px;
@@ -523,7 +527,6 @@ max-width: 264px;
 
 
 .form-div {
-  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -578,7 +581,7 @@ max-width: 264px;
 .icon-telegram{
   margin-left: 16px;
   top: 50%;
-  color: #FFFFFF;
+  fill: #FFFFFF;
 }
 
 .button-close {
@@ -739,6 +742,19 @@ max-width: 264px;
 
 .link-label {
   color: #4d5ae5;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 
